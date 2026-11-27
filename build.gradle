@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.library' version '8.7.3'
+    id 'maven-publish'
 }
 
 group = 'com.github.Itscrazyshivam'
@@ -7,7 +8,7 @@ version = '1.0.0'
 
 android {
     namespace 'com.shivam.bottomnavigation'
-    compileSdk 35
+    compileSdk 37
 
     defaultConfig {
         minSdk 21
@@ -23,6 +24,19 @@ android {
         singleVariant('release') {
             withSourcesJar()
             withJavadocJar()
+        }
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.Itscrazyshivam'
+                artifactId = 'ShivamBottomNavigation'
+                version = '1.0.0'
+            }
         }
     }
 }
