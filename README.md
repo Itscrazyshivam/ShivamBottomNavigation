@@ -57,7 +57,6 @@ dependencies {
 }
 ```
 
-Use this dependency after the `1.0.0` release has been successfully published on JitPack. If the repository is renamed, update the dependency accordingly.
 
 ## Quick Start
 
