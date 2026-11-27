@@ -1,0 +1,48 @@
+<resources>
+
+
+    <declare-styleable name="CustomBottomNavigation">
+
+        <attr name="cbnMenu" format="reference"/>
+
+        <attr name="cbnIconSize" format="dimension"/>
+        <attr name="cbnIconColor" format="color"/>
+        <attr name="cbnSelectedIconColor" format="color"/>
+
+        <attr name="cbnTextSize" format="dimension"/>
+        <attr name="cbnTextColor" format="color"/>
+        <attr name="cbnSelectedTextColor" format="color"/>
+
+        <attr name="cbnTextVisibility">
+            <enum name="none" value="0"/>
+            <enum name="selected" value="1"/>
+            <enum name="all" value="2"/>
+        </attr>
+
+        <attr name="cbnBarColor" format="color"/>
+        <attr name="cbnBarRadius" format="dimension"/>
+        <attr name="cbnBarBackground" format="reference"/>
+
+        <attr name="cbnIndicatorColor" format="color"/>
+        <attr name="cbnIndicatorRadius" format="dimension"/>
+        <attr name="cbnIndicatorBackground" format="reference"/>
+
+
+        <!-- Indicator Margin -->
+        <attr name="cbnIndicatorMarginStart" format="dimension" />
+        <attr name="cbnIndicatorMarginTop" format="dimension" />
+        <attr name="cbnIndicatorMarginEnd" format="dimension" />
+        <attr name="cbnIndicatorMarginBottom" format="dimension" />
+
+        <!-- Indicator Padding -->
+        <attr name="cbnIndicatorPaddingStart" format="dimension" />
+        <attr name="cbnIndicatorPaddingTop" format="dimension" />
+        <attr name="cbnIndicatorPaddingEnd" format="dimension" />
+        <attr name="cbnIndicatorPaddingBottom" format="dimension" />
+
+        <attr name="cbnAnimationEnabled" format="boolean"/>
+
+    </declare-styleable>
+
+
+</resources>

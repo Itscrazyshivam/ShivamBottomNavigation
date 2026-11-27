@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.library' version '8.7.3'
+}
+
+group = 'com.github.Itscrazyshivam'
+version = '1.0.0'
+
+android {
+    namespace 'com.shivam.bottomnavigation'
+    compileSdk 35
+
+    defaultConfig {
+        minSdk 21
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
+}
