@@ -27,7 +27,7 @@ Create beautiful bottom navigation experiences with smooth animations, expandabl
 
 ## Preview
 
-
+Add your own screenshots or GIF demonstrating the navigation animations here.
 
 ## Installation
 
@@ -53,11 +53,11 @@ For the current GitHub repository `ShivamBottomNavigation`, use the library modu
 
 ```groovy
 dependencies {
-    implementation 'com.github.Itscrazyshivam:ShivamBottomNavigation:1.0.1'
+    implementation 'com.github.Itscrazyshivam.ShivamBottomNavigation:1.0.1'
 }
 ```
 
-
+Use this dependency after the `1.0.0` release has been successfully published on JitPack. If the repository is renamed, update the dependency accordingly.
 
 ## Quick Start
 
@@ -207,63 +207,9 @@ Control how navigation titles are displayed.
 // Select an item by its menu ID
 bottomNavigation.setSelectedItemId(R.id.nav_home);
 
-// Get selected item ID
-int selectedId = bottomNavigation.getSelectedItemId();
-
-// Get selected item position
-int position = bottomNavigation.getSelectedItemPosition();
-
-// Select by position
-bottomNavigation.setSelectedItemPosition(1);
-
-// Get navigation item count
-int count = bottomNavigation.getItemCount();
 ```
 
-### Animation
 
-```java
-bottomNavigation.setAnimationEnabled(true);
-```
-
-### Icon Customization
-
-```java
-bottomNavigation.setIconSize(24);
-
-bottomNavigation.setIconColor(Color.GRAY);
-
-bottomNavigation.setSelectedIconColor(Color.WHITE);
-```
-
-### Text Customization
-
-```java
-// 0 = None, 1 = Selected, 2 = All
-bottomNavigation.setTextVisibility(1);
-
-bottomNavigation.setTextColor(Color.GRAY);
-
-bottomNavigation.setSelectedTextColor(Color.WHITE);
-```
-
-### Background Customization
-
-```java
-bottomNavigation.setBarColor(Color.BLACK);
-
-bottomNavigation.setBarBackground(drawable);
-
-bottomNavigation.setIndicatorColor(Color.MAGENTA);
-
-bottomNavigation.setIndicatorBackground(drawable);
-```
-
-### Update Navigation Menu
-
-```java
-bottomNavigation.setMenu(R.menu.bottom_navigation_menu);
-```
 
 **Note:** `getMenu()` returns a newly inflated menu instance. Modifying that instance does not automatically update the rendered navigation items. Use `setMenu()` to rebuild the navigation view.
 
@@ -292,7 +238,7 @@ This repository includes a sample Android application demonstrating:
 Clone the repository:
 
 ```bash
-git clone https://github.com/Itscrazyshivam/ShivamBottomNavigation2.git
+git clone https://github.com/Itscrazyshivam/ShivamBottomNavigation.git
 ```
 
 Open the project in Android Studio and sync Gradle.
@@ -315,8 +261,6 @@ This project follows semantic versioning.
 
 - `1.0.0` – Initial stable release.
 - `1.0.1` – Bug fixes.
-- `1.1.0` – New backward-compatible features.
-- `2.0.0` – Major changes or breaking API updates.
 
 ## Contributing
 
