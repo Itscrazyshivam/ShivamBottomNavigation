@@ -1,10 +1,10 @@
 # ShivamBottomNavigation
 
-**A modern, customizable and animated bottom navigation library for Android, built with Java.**
+**A modern, customizable and animated bottom navigation library for Android like iOS, built with Java.**
 
 Create beautiful bottom navigation experiences with smooth animations, expandable selected items, customizable indicators, and flexible styling options.
 
-[![JitPack](https://jitpack.io/v/Itscrazyshivam/ShivamBottomNavigation2.svg)](https://jitpack.io/#Itscrazyshivam/ShivamBottomNavigation2)
+[![JitPack](https://jitpack.io/v/Itscrazyshivam/ShivamBottomNavigation2.svg)](https://jitpack.io/#Itscrazyshivam/ShivamBottomNavigation)
 ![Platform](https://img.shields.io/badge/Platform-Android-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Java-orange)
 ![Min SDK](https://img.shields.io/badge/Min%20SDK-21-blue)
