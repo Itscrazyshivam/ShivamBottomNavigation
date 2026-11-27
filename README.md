@@ -53,7 +53,7 @@ For the current GitHub repository `ShivamBottomNavigation`, use the library modu
 
 ```groovy
 dependencies {
-    implementation 'com.github.Itscrazyshivam.ShivamBottomNavigation:1.0.1'
+    implementation 'com.github.Itscrazyshivam:ShivamBottomNavigation:1.0.1'
 }
 ```
 
