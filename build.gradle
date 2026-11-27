@@ -8,10 +8,11 @@ version = '1.0.0'
 
 android {
     namespace 'com.shivam.bottomnavigation'
-    compileSdk 37
+    compileSdk 36
 
     defaultConfig {
         minSdk 21
+
         consumerProguardFiles 'consumer-rules.pro'
     }
 
