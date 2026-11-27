@@ -27,7 +27,7 @@ Create beautiful bottom navigation experiences with smooth animations, expandabl
 
 ## Preview
 
-Add your own screenshots or GIF demonstrating the navigation animations here.
+
 
 ## Installation
 
@@ -53,11 +53,11 @@ For the current GitHub repository `ShivamBottomNavigation`, use the library modu
 
 ```groovy
 dependencies {
-    implementation 'com.github.Itscrazyshivam.ShivamBottomNavigation:1.0.0'
+    implementation 'com.github.Itscrazyshivam:ShivamBottomNavigation:1.0.1'
 }
 ```
 
-Use this dependency after the `1.0.0` release has been successfully published on JitPack. If the repository is renamed, update the dependency accordingly.
+
 
 ## Quick Start
 
